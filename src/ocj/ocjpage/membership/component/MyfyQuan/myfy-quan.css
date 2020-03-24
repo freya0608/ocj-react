@@ -1,0 +1,26 @@
+.myfy-quan{
+  width: 100%;
+  height: 390px;
+  background-color: #f9ddc1;
+}
+.myfy-quan-img{
+  width: 85%;
+  margin: 0 auto;
+}
+.q-title{
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 10px;
+  color: #c48338;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.quan-toUse{
+  margin-top: 20px;
+  width: 40%;
+  display: block;
+  margin-left: 30%;
+  height: 41px;
+}

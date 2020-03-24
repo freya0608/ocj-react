@@ -1,0 +1,149 @@
+.member-main{
+    width: 100%;
+    background-color: #fff8ed;
+    font-size: 0;
+}
+.content{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.siDaContainer{
+    padding:12px;
+    position:relative
+}
+.btn{
+    display:block;
+    width:34%;
+    margin-left:33%;
+    margin-top:-14%
+}
+.zhuanShuOpacity{
+    opacity:0.5;
+    background:#333;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    z-index:1;
+    border-radius: 0.18rem;
+}
+.notLogin{
+    position: absolute;
+    width: calc(100% - 2.47rem);
+    height: 78%;
+    margin: 0.42rem;
+}
+.zhuanshuImg{
+    position: absolute;
+    z-index:1;
+    width:20%;
+    margin-left: 40%;
+    margin-top: 30%
+}
+.container{
+    margin-top: 14px;
+    padding: 0 12px;
+}
+.myfy{
+    width: 100%;
+    height: 200px;
+    background-color: #f9ddc1;
+}
+.myfy-title{
+    width: 85%;
+}
+
+.hyLevel{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.input-month{
+    margin-top: 7%;
+
+}
+.input-img{
+    width: 36%;
+    margin-right: 10px;
+}
+.input-yue{
+    margin-left: 10px;
+    display: inline-block;
+    width: 32px;
+    height: 38px;
+}
+.input-text{
+    width: 29px;
+    vertical-align: bottom;
+    height: 36px;
+    line-height: 20%;
+    border-radius: 5px;
+    background: #fff8ed;
+    border:none;
+    color: #9c5842;
+    font-size: 1rem;
+    text-align: center;
+}
+.tolevelGet{
+    width: 60%;
+    display: inline-block;
+    margin-top: 10%;
+}
+.chaozhi-nlogin{
+    /*padding: 12px;*/
+}
+.chaozhi{
+    padding: 0 12px;
+    margin-top: 14px;
+}
+.chaozhi-login{
+   width: 100%;
+    height: 470px;
+    background-color: #f9ddc1;
+}
+.chaozhi-list{
+    padding:10px 20px
+
+}
+.chaozhi-title{
+    width: 85%;
+}
+.list-item{
+    padding-top: 10px;
+    height: 128px;
+    position: relative;
+}
+.toBuy{
+    display: block;
+    width: 90px;
+    position: absolute;
+    height: 27px;
+    margin-top: -40px;
+    right: 20px;
+    float: right;
+}
+.selectMe{
+    display: block;
+    width: 90px;
+    position: absolute;
+    height: 27px;
+    margin-top: -40px;
+    right: 20px;
+    float: right;
+}
+.inputVerify{
+    width: 40%;
+    left: 30%;
+    position: absolute;
+    top: 36%;
+    vertical-align: bottom;
+    height: 36px;
+    line-height: 20%;
+    border-radius: 5px;
+    background: #fff;
+    border:none;
+    color: #9c5842;
+    font-size: 1rem;
+    text-align: center;
+}

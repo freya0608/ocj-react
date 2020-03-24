@@ -1,0 +1,40 @@
+.buttonRule { position: absolute; padding: 7px 2px; width: 22px; height: auto; text-align: center; line-height: 1.2rem;
+    right: 0; top: 170px; color: #fff; font-size: 1rem; border-radius: 2px; background: rgba(0,0,0,.6); z-index: 10; }
+.buttonRule.left{
+    right: inherit; left: 0;
+}
+.e-RuleContent{
+    position: absolute; top: 0; left: 0; width: 100%;
+}
+.byContent{
+    box-sizing: border-box;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+.byContent p{
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: .3rem 0;
+    width: 90%; margin: 0 auto;
+}
+.e-RuleMain{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.e-RuleBox{
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0,0,0,.8); z-index: 201;
+}
+.e-RuleClose{
+    background-image: url("//cdnimg.ocj.com.cn/image_site/event/2015/12/templet/popClose.png");
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem;
+    position: absolute; top: 20px; right: 20px; z-index: 333;
+}
