@@ -1,0 +1,161 @@
+.htmlinfo{
+    position: relative; top: 20px; left: 5%;
+    width: 90%; height: auto;
+}
+.transitionPar{
+    position: absolute; top: 0; left: 0; width: 100%; z-index: 9;
+}
+
+/*选择汽车*/
+.choseBoxPar{
+    display: flex; width: 100%; height: auto; position: relative; box-sizing: border-box;
+    border: 1px solid #c5d1f4; background-color: rgba(250,251,253,.9);
+    margin-top: 1rem; overflow: hidden;
+}
+.choseBox{
+    flex-grow: 1; height: 100%;
+    box-sizing: border-box;
+    padding: 0 .7rem 1rem .7rem;
+    position: relative;
+}
+.carchose{
+    width: 100%; height: auto; position: relative;
+    box-sizing: border-box;
+    padding: 1rem 0 0 1rem;
+}
+.clickToChose{
+    position: relative; width: 100%; height: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 3rem;
+    background-color: #606ce8;
+    font-size: 1.42rem;
+    color: #ffffff;
+}
+.carchose p.title{
+    font-size: 1.42rem; color: #5f6a8a; font-weight: bold;
+    margin-bottom: .5rem;
+}
+.carchose p.smallTitle{
+    font-size: 1rem; color: #9babdf;
+}
+.maskButton img{
+    width: 100%; height: 100%;
+}
+.choseBox div{
+    z-index: 6; position: relative;
+}
+.choseBox div.maskButton{
+    z-index: 5;
+    position: absolute; top: 0; left: 0; font-size: 0; overflow: hidden;
+    width: 100%; height: 100%;
+    opacity: 0;
+}
+
+/*选择*/
+.chosea{
+    width: 100%; height: 10%;  position: absolute; left: 0; bottom: 3%;
+}
+.choseb{
+    width: 100%; height: 9%; /*background-color: rgba(0,0,0,.7);*/ position: absolute; left: 0; bottom: 13.5%;
+}
+.fullmaskhtml{
+    position: relative;
+}
+
+/*最终页面*/
+.maskshadow{
+    position: absolute; width: 100%; overflow: hidden; display: none;
+    top: 0; left: 0; z-index: 9;
+    background-color: #0f152d;
+}
+.htmlfinal{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; overflow: hidden;
+    background-color: #222546;
+    background-size: 100% auto; background-position:  center bottom;
+    background-repeat: no-repeat;
+}
+.slglast{
+    width: 80%; position: absolute; top: 10%; left: 10%;
+}
+.carlogo{
+    height: auto; width: 50%; position: absolute; top: 30%; left: 0; text-align: center; font-size: 0;
+}
+
+.slgtext{
+    color: #d8d8ea; font-size: 1.5rem; line-height: 2.6rem; text-align: center;
+    width: 100%;
+    position: absolute; top: 31%;
+}
+.makeImage{
+    position: absolute; width: 36%; height: auto; left: 32%; top: 50%;
+}
+.carbuttom{
+    position: absolute; bottom: 1rem; right: 3rem; width: auto; height: 7%;
+}
+.carbuttom img{
+    width: auto; height: 100%;
+}
+.flexLast{
+    width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1;
+    display: flex; flex-direction: column;
+    justify-content: space-around;
+}
+.lastAlert{
+    position: relative; width: 80%; z-index: 9; margin: 0 auto;
+}
+.shareAlert{
+    position: absolute; top: 0; right: 0; z-index: 9; width: 70%; display: block;
+}
+.finalalertMask{
+    position: absolute; top: 0; left: 0; z-index: 9; width: 100%; height: 100%;
+    background-color: rgba(0,0,0,.7);
+    display: none;
+}
+.downlist{
+    display: flex; position: relative; z-index: 10;
+    box-sizing: border-box;
+    padding-left: 1.3rem;
+}
+.downlist .downlistButton{
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin: 0 1.3rem 0 0;
+}
+.transitionParMove{
+    width: 100%; height: 100%; position: relative;
+    box-sizing: border-box; padding-top: 20px;
+}
+.starmovefinal.starmovefinal0{
+    top: 0; width: 10%;
+}
+.starmovefinal.starmovefinal1{
+    width: 20%;
+    top: 10%;
+    animation-delay: 1s;
+}
+/*遮照*/
+.maskToCover{
+    width: 100%; height: auto; position: relative; top: 0; left: 0; font-size: 0; overflow: hidden;
+}
+.satellite{
+    position: absolute; top: 3rem; right: 4rem; width: 25%;
+    animation:satellitemove 3s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes satellitemove {
+    0% {transform: translate3d(-2%,-5%,0)}
+    50% {transform: translate3d(0,0,0)}
+    100% {transform: translate3d(-2%,-5%,0)}
+}
+
+/*腾讯遮照层*/
+.maskTip{
+    width: 40%; position: absolute; right: 5%; bottom: 2rem;
+}
+.righttip{
+    width: 40%; position: absolute; left: 5%; bottom: 2rem;
+}

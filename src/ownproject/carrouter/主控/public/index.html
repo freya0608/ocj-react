@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="./js/loading.js?v4"></script>
+    <script type="text/javascript">
+	    window.onerror = function(errorMessage, scriptURI, lineNumber,columnNumber,errorObj) {
+		    //alert(errorMessage);
+	    }
+    </script>
+</head>
+
+<body>
+<noscript>
+    You need to enable JavaScript to run this app.
+</noscript>
+
+<audio src="./res/audio/bg.mp3" preload="true" loop="true" class="bgm" id="bgm"></audio>
+<audio src="./res/audio/bianxing.mp3" preload="true" id="trans"></audio>
+<audio src="./res/audio/chaoche.mp3" preload="true" id="aaaaa"></audio>
+<audio src="./res/audio/chaosu.mp3" preload="true" id="bbbbb"></audio>
+<audio src="./res/audio/daqiu.mp3" preload="true" id="a3"></audio>
+<audio src="./res/audio/dazi.mp3" preload="true" id="ccccc"></audio>
+<audio src="./res/audio/kaimen.mp3" preload="true" id="a5"></audio>
+<audio src="./res/audio/start.mp3" preload="true" id="start"></audio>
+<audio src="./res/audio/xiuxian.mp3" preload="true" id="ddddd"></audio>
+<audio src="./res/audio/chose.mp3" preload="true" id="chosebutton"></audio>
+
+<div id="root"></div>
+<div class="playBgm"></div>
+<div id="loadingMove">
+    <div class="loadingMoveIn" style="background-image: url('./res/loading/bg.jpg')">
+        <div class="loadingslg slg_0"></div>
+        <div class="loadinglog"><img src="./res/loading/logo.png" /></div>
+        <div class="loadingCircle">
+            <div class="circle0 loading0_0"></div>
+            <div class="circle1 loading3_0"></div>
+            <div class="circle2 loading4_0"></div>
+        </div>
+        <div class="textBox"></div>
+        <div class="floot">本报告数据基于安吉星相关业务收集<br/>仅供参考</div>
+        <div class="loadingtext">数据生成中<br/><span></span></div>
+        <div class="showListIcons">
+            <div class="textcircle textcircle_0"></div>
+            <div class="iconroud"><img alt="" src="./res/loading/icon5.png" /></div>
+            <div class="iconroud"><img alt="" src="./res/loading/icon6.png" /></div>
+            <div class="iconroud"><img alt="" src="./res/loading/icon0.png" /></div>
+            <div class="iconroud"><img alt="" src="./res/loading/icon1.png" /></div>
+            <div class="iconroud"><img alt="" src="./res/loading/icon2.png" /></div>
+            <div class="iconroud"><img alt="" src="./res/loading/icon3.png" /></div>
+            <div class="iconroud"><img alt="" src="./res/loading/icon4.png" /></div>
+        </div>
+    </div>
+    <div class="cloud"></div>
+</div>
+
+<script type="text/javascript">
+    var nowsound=null;
+    window.playsound=function (id) {
+      if(nowsound){
+	      document.getElementById(nowsound).pause();
+	      document.getElementById(nowsound).currentTime=0;
+      }
+      if(document.getElementById(id)){
+	      nowsound=id;
+	      document.getElementById(id).play();
+      }
+    }
+	window.audioAutoPlay=function(){
+		var audio = document.getElementById("bgm");
+		function plays(){
+			audio.play();
+		};
+		audio.play();
+		document.addEventListener("WeixinJSBridgeReady", function () {
+			plays();
+		}, false);
+		document.addEventListener('YixinJSBridgeReady', function() {
+			plays();
+		}, false);
+	}
+    audioAutoPlay();
+	$(document).ready(function () {
+        var audio = document.getElementById("bgm");
+        audio.addEventListener("play",function () {
+            $(".playBgm").removeClass("off")
+        });
+        audio.addEventListener("pause",function () {
+            $(".playBgm").addClass("off")
+        });
+        $(".playBgm").on("touchend",function () {
+            if(audio.paused){
+                audio.play()
+            }else{
+                audio.pause()
+            }
+        })
+    })
+
+</script>
+</body>
+</html>

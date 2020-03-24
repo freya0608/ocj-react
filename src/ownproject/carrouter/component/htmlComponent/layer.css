@@ -1,0 +1,119 @@
+.layerBox{ padding: 1.4rem; padding-bottom: .5rem; position: relative; left: 5%; margin-bottom: .7rem;
+    width: 90%; min-height: 100px; box-sizing:border-box; border: #d3daf4 0.15rem solid; border-radius: 0.2rem; background-color: rgba(255, 255, 255, 0.9); }
+.layerTitle_1{ margin-bottom: 1.25rem; color:#5f6a8a; font-size: 1.6rem; font-weight: bold; line-height: 2rem;}
+.layerTitle_2{ margin-bottom: 1rem; color:#737fa6; font-size: 1.25rem; margin-top: 1.3rem; line-height: 1.6rem; }
+.layerTitleSmall { margin: auto; width: 90%; }
+.layerTitle_2 p{ text-align: right; color: #9babdf; font-size: 0.8rem; font-weight: normal;
+    margin:1rem 0;
+}
+.layerText{ margin-bottom: 1rem; color:#9babdf; font-size: 1rem; line-height: 1.2rem; }
+.layerLine{  border-bottom: #a5b6e0 1px dashed; font-size: 0; }
+.stripImg{overflow: hidden; font-size: 0;}
+.stripList{ position: relative; margin-bottom: 1.25rem; }
+.stripList li{ position: absolute; width: 15%; bottom: 0;}
+.stripList li:nth-child(2){ left: 22%; }
+.stripList li:nth-child(3){ left: 43%; }
+.stripList li:nth-child(4){ left: 64%; }
+.stripList li:nth-child(5){ left: 85%; }
+.stripIcon{ margin: 0 auto; width: 80%; }
+.stripLogo_1{ width: 50%; margin-bottom: 15%; }
+.stripLogo_2{ width: 80%; margin-bottom: 20%; }
+.stripLogo_3{ width: 90%; margin-bottom: 25%; }
+.stripBox{ position: relative; overflow: hidden;}
+.stripNum{ position: absolute; left: 0; top: .4rem; width: 100%; color: #fff; font-size: 1.5rem; font-weight: bold; text-align: center; }
+.stripBlock{ position: absolute; left: 0; bottom: 0.2rem; width: 100%; }
+.stripName{ position: relative; margin-top: 0.5rem;
+    white-space: nowrap;
+    left: -10%; width: 120%; color: #9babdf; font-size: 0.9rem; text-align: center; }
+
+.stripListBig { position: relative; margin-bottom: 1.5rem; }
+.stripListBig li{ position: absolute; width: 20%; left: 3%; bottom: 0; }
+.stripListBig li:nth-child(2){ left: 30%; }
+
+.stripListSmall{ position: relative; margin-bottom: 1.5rem; }
+.stripListSmall li{ position: absolute; width: 14%; left: 1%; bottom: 0; }
+.stripListSmall li:nth-child(2){ left: 20%; }
+.stripListSmall li:nth-child(3){ left: 39%; }
+.stripListSmall li:nth-child(4){ left: 52%; }
+.stripListSmall li:nth-child(5){ left: 69%; }
+.stripListSmall li:nth-child(6){ left: 86%; }
+
+.stripListSmallest{ position: relative; margin-bottom: 1.5rem; }
+.stripListSmallest li{ position: absolute; width: 10%; left: -1%; bottom: 0; }
+.stripListSmallest li:nth-child(2){ left: 13%; }
+.stripListSmallest li:nth-child(3){ left: 26%; }
+.stripListSmallest li:nth-child(4){ left: 39%; }
+.stripListSmallest li:nth-child(5){ left: 52%; }
+
+
+.stripListSmallest li .stripIcon{ width: 36%; position: relative; top: .2rem }
+.stripListSmallest li:nth-child(2) .stripIcon{ width: 42%; }
+.stripListSmallest li:nth-child(3) .stripIcon{ width: 56%; }
+.stripListSmallest li:nth-child(4) .stripIcon{ width: 47%; }
+.stripListSmallest li:nth-child(5) .stripIcon{ width: 52%; }
+
+.stripListImg_1{ position: absolute; width: 40%; right: 0; top: 6%; }
+.stripListImg_2{ position: absolute; width: 35%; right: 0; bottom: 0; }
+.stripListImg_3{ position: absolute; width: 44%; right: 0; top: -2%; }
+.stripListImg_4{ position: absolute; width: 49%; left: 0; bottom: -20%; }
+.stripListImg_5{ position: absolute; width: 49%; left: -2%; bottom: -20%; }
+.stripListImg_6{ position: absolute; width: 39%; right: -4%; top: -51%; }
+.stripListImg_7{ position: absolute; width: 40%; right: -2%; bottom: -1rem; }
+
+.listImgBox{ position: relative; font-size: 0; overflow: hidden}
+.listBg{ line-height: 0; }
+.listImg{ position: absolute; left: 10%; bottom: 10%; width: 90%; overflow: hidden; font-size: 0; }
+.listImgPos_1{ left: 10%; bottom: 17%; width: 90%; }
+.listImgPos_2{ left: 10%; bottom: 17%; width: 90%; }
+.listImgPos_3{ left: 10%; bottom: 17%; width: 90%; }
+
+.questionTitle{ position: relative; margin-bottom: 1rem; color: #76b93a; text-align: center; line-height: 1.4rem; }
+.titleLineLeft{ position: absolute; left: 0; top: 0.7rem; width: 10%; border-bottom: #76b93a 1px dashed; }
+.titleLineRight{ position: absolute; right: 0; top: 0.7rem; width: 10%; border-bottom: #76b93a 1px dashed; }
+.questionButton{
+    margin-bottom: .3rem;
+    box-sizing: border-box;
+    padding: 0 0 0.2rem 2rem; width: 100%; color: #737fa6; font-size: 1.1rem; line-height: 3rem; background: url("../../res/imgButtonffffff.png") no-repeat; background-size: 100% 100%; }
+.questionButton.clicked{
+    background: url("../../res/imgButton_on.png") no-repeat; background-size: 100% 100%;
+}
+.showImgBox{ margin-bottom: 1.42rem; }
+
+.jigsaw{ position: relative; margin-bottom: 10%; overflow: hidden; font-size: 0; }
+.jigsaw_1{ width: 100%; font-size: 0; }
+.jigsaw_2{ position: absolute; left: 0; top: 0; width: 100%; font-size: 0; }
+.jigsaw_3{ position: absolute; left: 0; top: 0; width: 100%; font-size: 0; }
+.jigsaw_4{ position: absolute; left: 0; top: 0; width: 100%; font-size: 0; }
+
+.layerBlack{ border: #4c5468 1px solid; background-color: rgba(45, 52, 69, 0.9); }
+.layerBlack .layerTitle_1{ color:#fff; }
+.layerBlack .layerTitle_2{ color: #fff; font-weight: normal; }
+.layerBlack .layerLine{  border-bottom: #5563a1 1px dashed; }
+.layerBlack .questionButton{ color: #9babdf; background: url("../../res/imgButton.png") no-repeat; background-size: 100% 100%; }
+.layerBlack .questionButton.clicked{
+    background: url("../../res/imgButton_onfff.png") no-repeat; background-size: 100% 100%;
+}
+.layerBlack .stripLogo_1{ width: 50%; margin-bottom: 6%; }
+.layerBlack .stripLogo_2{ width: 80%; margin-bottom: 20%; }
+.layerBlack .stripLogo_3{ width: 90%; margin-bottom: 10%; }
+
+body .itemHighest{ position: relative; }
+/*body .txMarBottom{ margin-bottom: .8rem; }*/
+.clear{ clear:both; }
+
+/*深夜图片透明度变小*/
+.layerBlack .stripImg{opacity: .7}
+
+/*hujunadd*/
+.layerTitle_1.smallsize{
+    font-size: 1.5rem;
+}
+.chekuangBottom{
+    width: 20%;
+    /* margin-top: -10px; */
+    position: relative;
+    left: 75%;
+}
+.maskTip7{
+    width: 30%; position: relative; left: 65%;
+}

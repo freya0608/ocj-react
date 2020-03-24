@@ -1,0 +1,31 @@
+{
+    "bg":"bg.png",
+    "topChao":"topChao.png",
+    "qcodeChao":"qcodeChao.png",
+    "xuan1":"xuan01.png",
+    "xuan2":"xuan02.png",
+    "xuan3":"xuan03.png",
+    "list":[
+        {
+            "itemName":"富培美水精灵组合 ",
+            "sale":279,
+            "discount":179,
+            "image":"15223050L.jpg"
+        },{
+            "itemName":"众仁极核每日坚果 ",
+            "sale":188,
+            "discount":-1,
+            "image":"15222043L1.jpg"
+        },{
+             "itemName":"阿道夫洗护套装",
+             "sale":168,
+             "discount":99,
+             "image":"15206943L.jpg"
+        },{
+             "itemName":"鳄鱼灯芯绒长裤",
+             "sale":199,
+             "discount":129,
+             "image":"15254286L.jpg"
+        }
+   ]
+}
